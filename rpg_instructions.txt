@@ -1,0 +1,15 @@
+MONTY PYTHON ADVENTURE RPG INSTRUCTIONS
+
+This is a text based adventure game that will take you on a quest to find the Holy Grail.
+During this adventure you will have the opportunity to search for clues and items that you
+will ultimately need to successfully find the Holy Grail.
+
+As you explore the different areas, you will have different choices depending on where you are.
+There are times you may try to do something and it doesn't work.  This means that perhaps you
+are missing an item you need, or perhaps another step needs to be done first before returning
+to do this step.
+
+When all the items are found and the steps are completed in the correct order you will complete
+your quest and find the Holy Grail.
+
+Good luck and happy questing.
