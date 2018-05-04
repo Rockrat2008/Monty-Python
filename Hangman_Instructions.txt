@@ -1,0 +1,9 @@
+MONTY PYTHON HANGMAN INSTRUCTIONS
+
+This is a traditional hangman game where you have to guess letters to figure out the secret word before getting hung by your neck from the gallows.
+
+All of the words and phrases will be somehow related to Monty Python so keep that in mind as you attempt to solve them.
+
+The phrases do have spaces in them and the space character is an acceptable guess.
+
+Good luck and happy guessing.
