@@ -1,11 +1,13 @@
 #  AUTHOR:  Michael O'Brien
 #  CREATED:  05 April 2018
-#  MODIFIED:  30 April 2018
+#  MODIFIED:  07 May 2018
 #  DESCRIPTION:  Monty Python text games
 
 
 #  Load the dictionary with the episodes from season 11
-episodes = {"It's Wolfgang Amadeus Mozart":1,"Famous Deaths":1,"Italian Lesson":1,"Whizzo Butter":1,"It's the Arts":1,"Arthur 'Two-Sheds' Jackson":1,"Picasso/Cycling Race":1,"The Funniest Joke in the World":1,"Flying Sheep":2, "French Lecture on Sheep-Aircraft":2,"A Man with Three Buttocks":2,"A Man with Two Noses":2,"Musical Mice":2,"Marriage Guidance Councellor":2,"The Wacky Queen":2,"Working-Class Playwright":2,"A Scotsman on a Horse":2,"the Wrestling Epilogue":2,"The Mouse Problem":2,"Court Scene":3,"The Larch":3,"Bicycle Repairman":3,"Children's Stories":3,"Restaurant Sketch":3,"Seduced Milkmen":3,"Stolen Newsreader":3,"Children's Interview":3, "Nudge, Nudge":3,"Song":4,"Art Gallery":4,"Art Critic":4,"It's a Man's Life in the Modern Army":4,"Undressing in Public":4,"Self-Defense Against Fresh Fruit":4,"Secret Service Dentists":4,"Confuse-a-Cat":5,"The Smuggler":5,"A Duck, a Cat and a Lizard":5,"Vox Pops on Smuggling":5,"Police Raid":5,"Letters and Vox Pops":5,"Newsreader Arrested":5,"Erotic Film":5,"Silly Job Interview":5,"Careers Advisory Board":5,"Burglar/Encyclopaedia Salesman":5,"Johann Gombolputty.... von Hautkopf of Ulm":6,"Non-illegal Robbery":6,"Vox Pops":6,"Crunchy Frog":6,"The Dull Life of a City Stockbroker":6,"Red Indian in Theatre":6,"Policemen Make Wonderful Friends":6,"A Scotsman on a Horse":6,"Twentieth-Century Vole":6,"Camel Spotting":7,"You're No Fun Anymore":7,"The Audit":7,"Science Fiction Sketch":7,"Man Turns Into Scotsman":7,"Police Station":7,"Blancmanges Playing Tennis":7,"Army Protection Racket":8,"Vox Pops":8,"Art Critic - the Place of the Nude":8,"Buying a Bed":8,"Hermits":8,"Dead Parrot (Petshop)":8,"The Flasher":8, "Hell's Grannies":8,"Llamas":9,"A Man with a Tape Recorder up His Nose":9,"Kilimanjaro Expedition":9,"A Man with a Tape Recorder up His Brother's Nose":9,"Homicidal Barber":9,"Lumberjack Song":9,"Gumby Crooner":9, "The Refreshment Room at Bletchley":9,"Hunting Film":9,"The Visitors":9,"Walk-on-Part in Sketch":10,"Bank Robber":10,"Trailer":10,"Arthur Tree":10,"Vocational Guidance Counsellor":10,"The First Man to Jump the Channel":10,"Tunnelling from Godalming to Java":10,"Pet Conversions":10,"Gorilla Librarian":10,"Letters to 'Daily Mirror'":10,"Strangers in the Night":10,"Letters":11,"Interuptions":11,"Agatha Christie Sketch":11, "Undertakers File 1 Literary Football Discussion":11,"Interesting People":11,"Eighteenth-Century Social Legislation":11,"The Battle of Trafalgar":11,"Batley Townswomens' Guild Presents the Battle of Pearl Harbour":11, "Undertakers Film 2":11,"Falling From Buildings":12,"'Spectrum' -  Talking About Things":12,"Visitors from Coventry":12,"Mr Hitler":12,"The North Minehead By-Election":12,"Police Station":12,"Upperclass Twit of the Year":12, "Ken Shabby":12,"How Far Can a Minister Fall?":12,"Intermissions":13,"Restaurant":13,"Advertisments":13,"Albatross":13,"Come Back to My Place":13,"Me Doctor":13,"Historical Impersonations":13,"Quiz Programme - 'Wishes'":13, "'Probe-Around' on Crime":13,"Stonehenge":13,"Mr Attila the Hun":13,"Psychiatry - Silly Sketch":13,"Operating Theatre":13}
+season1Episodes = {"It's Wolfgang Amadeus Mozart":1, "Famous Deaths":1, "Italian Lesson":1, "Whizzo Butter":1, "It's the Arts":1, "Arthur 'Two-Sheds' Jackson":1, "Picasso/Cycling Race":1, "The Funniest Joke in the World":1, "Flying Sheep":2, "French Lecture on Sheep-Aircraft":2, "A Man with Three Buttocks":2, "A Man with Two Noses":2, "Musical Mice":2, "Marriage Guidance Councellor":2, "The Wacky Queen":2, "Working-Class Playwright":2, "A Scotsman on a Horse":2,"the Wrestling Epilogue":2, "The Mouse Problem":2, "Court Scene":3, "The Larch":3, "Bicycle Repairman":3, "Children's Stories":3, "Restaurant Sketch":3, "Seduced Milkmen":3, "Stolen Newsreader":3, "Children's Interview":3, "Nudge, Nudge":3, "Song":4, "Art Gallery":4, "Art Critic":4, "It's a Man's Life in the Modern Army":4, "Undressing in Public":4, "Self-Defense Against Fresh Fruit":4, "Secret Service Dentists":4, "Confuse-a-Cat":5, "The Smuggler":5, "A Duck, a Cat and a Lizard":5, "Vox Pops on Smuggling":5, "Police Raid":5, "Letters and Vox Pops":5, "Newsreader Arrested":5, "Erotic Film":5, "Silly Job Interview":5, "Careers Advisory Board":5, "Burglar/Encyclopaedia Salesman":5, "Johann Gombolputty.... von Hautkopf of Ulm":6, "Non-illegal Robbery":6, "Vox Pops":6, "Crunchy Frog":6, "The Dull Life of a City Stockbroker":6, "Red Indian in Theatre":6, "Policemen Make Wonderful Friends":6, "A Scotsman on a Horse":6, "Twentieth-Century Vole":6, "Camel Spotting":7, "You're No Fun Anymore":7, "The Audit":7, "Science Fiction Sketch":7, "Man Turns Into Scotsman":7, "Police Station":7, "Blancmanges Playing Tennis":7, "Army Protection Racket":8, "Vox Pops":8, "Art Critic - the Place of the Nude":8, "Buying a Bed":8, "Hermits":8, "Dead Parrot (Petshop)":8, "The Flasher":8, "Hell's Grannies":8, "Llamas":9, "A Man with a Tape Recorder up His Nose":9, "Kilimanjaro Expedition":9, "A Man with a Tape Recorder up His Brother's Nose":9, "Homicidal Barber":9, "Lumberjack Song":9, "Gumby Crooner":9, "The Refreshment Room at Bletchley":9, "Hunting Film":9, "The Visitors":9, "Walk-on-Part in Sketch":10, "Bank Robber":10, "Trailer":10, "Arthur Tree":10, "Vocational Guidance Counsellor":10, "The First Man to Jump the Channel":10, "Tunnelling from Godalming to Java":10, "Pet Conversions":10, "Gorilla Librarian":10, "Letters to 'Daily Mirror'":10, "Strangers in the Night":10, "Letters":11, "Interuptions":11, "Agatha Christie Sketch":11, "Undertakers File 1 Literary Football Discussion": 11, "Interesting People":11, "Eighteenth-Century Social Legislation":11, "The Battle of Trafalgar":11, "Batley Townswomens' Guild Presents the Battle of Pearl Harbour":11, "Undertakers Film 2":11, "Falling From Buildings":12, "'Spectrum' -  Talking About Things":12, "Visitors from Coventry":12, "Mr Hitler":12, "The North Minehead By-Election":12, "Police Station":12, "Upperclass Twit of the Year":12, "Ken Shabby":12, "How Far Can a Minister Fall?":12, "Intermissions":13, "Restaurant":13, "Advertisments":13, "Albatross":13, "Come Back to My Place":13, "Me Doctor":13, "Historical Impersonations":13, "Quiz Programme - 'Wishes'":13, "'Probe-Around' on Crime":13, "Stonehenge":13, "Mr Attila the Hun":13, "Psychiatry - Silly Sketch":13, "Operating Theatre":13}
+season2Episodes ={"Face the Press":1, "New Cooker Sketch":1, "Tobacconist's (Prostitute Advert)":1, "The Ministry of Silly Walks":1, "La March Futile":1, "Ethel the Frog/Piranha Brothers":1}
+season3Episodes ={"Njorl's Saga/Opening Credits":1, "Multiple Murderer Court Scene":1, "Investigating the body":1, "Njorl's Saga – part II":1, "A Terrible Mess":1, "Njorl's Saga – part II: North Malden?":1, "Starting Over":1, "Njorl's Saga – part II: Invest in Malden?":1, "Phone conversation about the word 'Maiden' in the saga":1, "Eric Njorl Court Scene (Njorl's Saga – part III)":1, "Stock Exchange Report":1, "Mrs. Premise and Mrs. Conclusion at the Launderette":1, "Mrs. Premise and Mrs. Conclusion at North Malden":1, "Back to the saga":1, "Njorl's Saga – part IV: Mrs. Premise and Mrs. Conclusion visit Sartre in Paris":1, "Whicker's World":1 }
 
 
 #  Global variablees to be used by the adventure RPG to track success
@@ -59,77 +61,89 @@ def menu():
 
 
 #  Function with instructions for the SKIT GUESSING GAME
+#  Function with instructions for the SKIT GUESSING GAME
 def skit_guess_instructions():
-    print (' ')
-    print ('SKIT GUESSING GAME')
-    print (' ')
-    print ('In this game I will give you the name of a skit and you have to guess the episode number that the skit aired in')
     print(' ')
-    print ('1 - Play the game')
-    print ('2 - See current scores of players')
-    print ('3 - Return to the Monty Python game choice menu')
+    print('SKIT GUESSING GAME')
+    print(' ')
+    print('In this game I will give you the name of a skit and you have to guess the episode number that the skit aired in')
+    print(' ')
+    print('1 - Play the game')
+    print('2 - See current scores of players')
+    print('3 - Return to the Monty Python game choice menu')
     print(' ')
     choice = input ('What would you like to do?  ')
     while len(choice) != 1:
-        choice = input ('Please make a choice on what you want to do:  ')
+        choice = input('Please make a choice on what you want to do:  ')
     if int(choice) == 1:
         player_name = input('Enter your name to test your knowledge in the Monty Python skit guessing game:  ')
         while len(player_name) < 1:
             player_name = input('If you want to test your knowledge of Monty Python skits you must enter your name:  ')
         number_correct = 0
         number_incorrect = 0
-        skit_guess_game(player_name, number_correct, number_incorrect)
+        episodesChoice = 0
+        print("What series would you like to guess skits from?")
+        skitChoice = input("Enter a number between 1-3:  ")
+        while len(skitChoice) != 1:
+            skitChoice = input("You need to enter and episode between 1-3:  ")
+        if skitChoice == "1":
+            episodesChoice = season1Episodes
+        elif skitChoice == "2":
+            episodesChoice = season2Episodes
+        elif skitChoice == "3":
+            episodesChoice = season3Episodes
+        skit_guess_game(player_name, number_correct, number_incorrect, episodesChoice)
     elif int(choice) == 2:
-        print ('PREVIOUS SCORES')
-        print (' ')
+        print('PREVIOUS SCORES')
+        print(' ')
         scoresFile = open ('scores.txt', 'r')
         highScores = scoresFile.read()
-        print (highScores)
+        print(highScores)
         scoresFile.close()
         skit_guess_instructions()
     elif int(choice) == 3:
         menu()
     else:
-        print ('Please make a valid selection')
+        print('Please make a valid selection')
         skit_guess_instructions()
 
 
 #  Function to play the SKIT GUESSING GAME
-def skit_guess_game(player_name, number_correct, number_incorrect):
-    episode_name, episode_number = random.choice(list(episodes.items()))
-    print (' ')
-    print ('What episode did skit ' + episode_name + ' appear in?')
-    print (' ')
+def skit_guess_game(player_name, number_correct, number_incorrect, episodesChoice):
+    episode_name, episode_number = random.choice(list(episodesChoice.items()))
+    print(' ')
+    print('What episode did skit ' + episode_name + ' appear in?')
+    print(' ')
     player_guess = input('Enter an episode number between 1-13 or 14 to exit:  ')
-    while (player_guess) < 1:
+    while int(player_guess) < 1:
         player_guess = input('You must enter an episode number between 1-13 or 14 to exit:  ')
     if int(player_guess) in range(1,15):
         if int(episode_number) == int(player_guess):
-            print ("CORRECT!  " + episode_name + ' appeared in episode ' + str(episode_number))
-            print (' ')
+            print("CORRECT!  " + episode_name + ' appeared in episode ' + str(episode_number))
+            print(' ')
             number_correct = number_correct + 1
-            skit_guess_game(player_name, number_correct, number_incorrect)
+            skit_guess_game(player_name, number_correct, number_incorrect, episodesChoice)
         elif int(player_guess) != 14:
-            print ('Wrong, ' + episode_name + ' appeared in episode ' + str(episode_number))
-            print (' ')
+            print('Wrong, ' + episode_name + ' appeared in episode ' + str(episode_number))
+            print(' ')
             number_incorrect = number_incorrect + 1
-            skit_guess_game(player_name, number_correct, number_incorrect)
+            skit_guess_game(player_name, number_correct, number_incorrect, episodesChoice)
         elif int(player_guess) == 14:
-            save_scores = open('scores.txt','a')
+            scoresFile = open('scores.txt','a')
             number_correct = player_name + ':  ' + str(number_correct) + ' correct'
-            print (number_correct)
+            print(number_correct)
             number_incorrect = player_name + ':  ' + str(number_incorrect) + ' incorrect'
-            print (number_incorrect)
-            print (' ')
+            print(number_incorrect)
+            print(' ')
             date_played = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            save_scores.write(date_played+'\n')
-            save_scores.write(number_correct+'\n')
-            save_scores.write(number_incorrect+'\n')
-            save_scores.close()
+            scoresFile.write(date_played+'\n')
+            scoresFile.write(number_correct+'\n')
+            scoresFile.write(number_incorrect+'\n')
+            scoresFile.close()
             menu()
     else:
         print('Please make a valid selection between 1-14')
-        skit_guess_game(player_name, number_correct, number_incorrect)
+        skit_guess_game(player_name, number_correct, number_incorrect, episodesChoice)
 
 
 #  Function to start the adventure RPG
