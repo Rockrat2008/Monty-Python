@@ -124,7 +124,7 @@ def skit_guess_game(player_name, number_correct, number_incorrect, episodesChoic
 
 #  HANGMAN INSTRUCTIONS FUNCTION
 def hangmanInstructions():
-    instructions = open('hangman_instructions.txt', 'r')
+    instructions = open('Hangman_Instructions.txt', 'r')
     hangmanInstructions = instructions.read()
     print(hangmanInstructions)
     instructions.close()
